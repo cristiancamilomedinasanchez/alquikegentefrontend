@@ -1,0 +1,204 @@
+.App {
+  text-align: center;
+}
+/* colores */
+
+:root {
+  --primary-color: #71b7e6;
+  --secundary-color:  #2ecc71; ;
+}
+
+
+/* fuentes  */
+
+:root{
+  --primary-font:'Lobster', cursive;
+}
+
+
+/* aplicaciones */
+
+h1, h2, h3 {
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+}
+
+
+.home-container{
+  background-image: url('./asses/fondo2.jpg');
+  height: 100vh;
+  width: 100vw;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.inscription-form{
+  width: 300px;
+  margin-left: calc(50% - 200px);
+  height: 600px;
+  padding: 20px 20px;
+  background-color: white;
+}
+
+.container-btn-incription{
+display: flex;
+flex-direction: column;
+margin-top: 90%;
+width: 300px;
+margin-left: calc(50% - 150px);
+}
+
+.btn-incription1{
+  padding: 5px;
+  background-color: var(--secundary-color);
+
+  border-radius: 10px;
+  border: 1px solid var(--secundary-color);
+}
+.btn-incription2{
+  padding: 5px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+.logo-container{
+  width: 200px;
+  margin-left: calc(50% - 100px);
+}
+
+.logo{
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+
+
+/* seccion informacion */
+
+
+.container-title-information {
+  margin-bottom: 20px;
+}
+
+/* Estilos para el título */
+.container-title-information h1 {
+  font-size: 20px;
+
+}
+
+/* Estilos para el contenedor de los inputs */
+.conainer-inputs-information {
+  margin-bottom: 20px;
+}
+
+/* Estilos para los inputs */
+.conainer-inputs-information input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc; /* Cambia el color del borde según tus preferencias */
+  border-radius: 5px;
+  width: 100%;
+}
+
+.input1{
+  width: 100%;
+}
+
+.input2{
+width: 100%;
+margin-top: 10px;
+}
+
+
+/* metodo de pago */
+
+
+.container-pay-methods {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px; /* Espacio superior */
+}
+
+/* Estilos del título */
+.title-pay-method h1 {
+  font-size: 24px;
+  margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilos del contenedor de método de pago */
+.container-pay-methood {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilos de la imagen del método de pago */
+.container-pay-methood img {
+  width: 100px; /* Ancho de la imagen */
+  margin-right: 20px; /* Espacio a la derecha de la imagen */
+}
+
+/* Estilos del botón de selección */
+.container-pay-methood button {
+  padding: 10px 20px; /* Espacio alrededor del texto del botón */
+  background-color: #2ecc71; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Borde redondeado */
+  cursor: pointer; /* Cursor apuntador al pasar por encima */
+}
+
+/* Estilos al pasar el ratón sobre el botón */
+.container-pay-methood button:hover {
+  background-color: #27ae60; /* Color de fondo del botón al pasar el ratón */
+}
+
+
+/* pasarela de pago paypal */
+
+
+.payment-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.payment-form h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.payment-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.payment-form input[type="text"],
+.payment-form input[type="email"],
+.payment-form input[type="number"],
+.payment-form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.payment-form button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.payment-form button:hover {
+  background-color: #0056b3;
+}
